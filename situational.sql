@@ -218,6 +218,16 @@ SELECT customer_id,
 FROM customer_shooping
 GROUP BY customer_id;
 
+-- 35)Top Customers by Spending
+SELECT
+    customer_id,
+    SUM(price) AS total_spent,
+    NTILE(4) OVER (ORDER BY SUM(price) DESC) AS spending_quartile
+FROM customer_shooping
+GROUP BY customer_id
+ORDER BY total_spent DESC;
+
+
 
 
 
