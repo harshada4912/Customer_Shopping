@@ -62,6 +62,6 @@ ORDER BY Month;
 
 ## Tools Used
 
--   SQL (MySQL/PostgreSQL/SQLite)
+-   SQL 
 -   CSV Dataset
--   Power BI / Tableau
+-   Power BI
