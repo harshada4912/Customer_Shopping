@@ -1,6 +1,12 @@
 create database shopping;
 use shopping;
 
+
+
+
+
+
+
 CREATE TABLE customer_shooping (
     invoice_no VARCHAR(20),
     customer_id VARCHAR(20),
